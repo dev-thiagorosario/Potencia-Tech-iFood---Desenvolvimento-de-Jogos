@@ -1,0 +1,5 @@
+Este site é um projeto Pokedex desenvolvido para o bootcamp Potência Tech iFood em Desenvolvimento de Jogos. 
+Utiliza HTML, CSS (com um arquivo externo chamado estilo.css), e JavaScript (app.js).
+Incorpora o Bootstrap para design responsivo e Normalize.css para garantir que os estilos dos elementos sejam consistentes em diferentes navegadores. 
+Também utiliza fontes do Google Fonts para tipografia. 
+O site destaca-se pela sua funcionalidade interativa, permitindo aos usuários explorar informações sobre diferentes Pokémons, demonstrando competências em front-end development e design web.
