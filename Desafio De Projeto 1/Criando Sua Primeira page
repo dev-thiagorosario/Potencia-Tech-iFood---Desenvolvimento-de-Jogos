@@ -1,0 +1,5 @@
+
+O site analisado é um clone do site da DIO, parte do primeiro desafio de programação do bootcamp Potência Tech iFood em Desenvolvimento de Jogos. 
+Ele utiliza HTML e CSS, com destaque para o uso do framework Bootstrap para responsividade e estilização, e Font Awesome para ícones. 
+O código HTML estrutura o conteúdo em seções claras, como cabeçalho, conteúdo principal, e rodapé, seguindo boas práticas de semântica e acessibilidade. 
+CSS externo (estilo.css) é aplicado para personalizar o visual além do Bootstrap, demonstrando a habilidade em criar interfaces atrativas e funcionais.
