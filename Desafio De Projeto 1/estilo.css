@@ -1,0 +1,279 @@
+/* Clone dio - Thiago Rosario*/
+
+
+/*Layout*/
+html, body, #home{
+    height: 100%;
+    orverflow-x: hidden;
+}
+
+
+body{
+    background: url(file:///C:/Users/Thiago/Documents/Codigos%20-%20Thiago%20Rosario/Projetos%20prontos%20e%20concluidos/Primeiro%20Site%20Bootcamp%20Ifood/img/image%202.png);
+    font-family: helvetica, Arial, Raleway, sans-serif;
+}
+section  {
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+#home {
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+/*Barra De Navegação*/
+
+nav.navbar-cor{
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+
+.navbar-light .navbar-toggler{
+    color: rgba(255, 255, 255, .5);
+    border-color: rgba(255, 255, 255, 1.0);
+}
+
+/*Capa*/
+
+.capa{
+    text-align: center;
+}
+.btn-custom {
+    width: auto; /* Permitir que o botão se ajuste ao texto */
+    height: 50px; /* Ajuste conforme necessário */
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.21em;
+    border: 2px solid #3BA1CD;
+    padding: 0 19px; /* Espaçamento entre o texto e as bordas */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-roxo {
+    color: #31A8DD;
+}
+
+.btn-roxo:hover {
+    background: #6207e3;
+}
+
+/*Tipografia*/
+
+#home p {
+    color: #FFFFFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+#home h2 {
+    font-family: Raleway;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+#home h2 {
+    background: linear-gradient(180deg, #33A8DB 0%, #1472B7 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#conteudo h3{
+    color: #33A8DB;
+    font-family: Raleway;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 6.08px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#conteudo p{
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+
+
+
+#conteudo{
+    background: #000;
+    padding: 25px;
+}
+.modulo h6{
+    color: #33A8DB;
+}
+
+.modulo{
+    width: 281px;
+    height: 19px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+
+
+color: #FFF;
+
+
+
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+
+
+box-sizing: border-box;
+
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 127px;
+gap: 10px;
+
+width: auto;
+height: 51px;
+
+background: #252525;
+border: 1px solid #33A8DB;
+
+box-shadow: inset -2px 6px 4px rgba(0, 0, 0, 0.4);
+border-radius: 57px;
+
+
+flex: none;
+order: 3;
+flex-grow: 0;
+
+margin-bottom: 25px;
+
+}
+
+#image {
+   position: relative;
+    background: url(img/imagem-2.png) center/cover no-repeat;
+    height: 960px; 
+    width: 100%;
+}
+
+#image h4 {
+    position: absolute;
+width: 244px;
+height: 141px;
+left: 200px;
+top: 70px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 40px;
+line-height: 47px;
+
+color: #FFFFFF;
+
+text-shadow: 3px 2px 0px #33A8DB;
+}
+
+#expo h2  {
+    width: 100%; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: 0.19em;
+    color: #33A8DB;
+    margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+
+#expo p {
+    color: #FFF;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+
+#expo {
+    background: #000;
+    text-align: center; 
+    padding-top: 50px; 
+}
+
+#expo h2,
+#expo p,
+#expo img {
+    margin-bottom: 50px; 
+}
+
+.logo {
+    width: 248px;
+    height: 214px;
+}
+
+/*Rodapé */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Para que os elementos se ajustem na largura da tela */
+    width: 100%;
+    height: 170px;
+    border-top: 1px solid #33A8DB;
+    background: #000 linear-gradient(180deg, rgba(51, 168, 219, 0.00) 0%, rgba(51, 168, 219, 0.20) 99.99%, rgba(51, 168, 219, 0.20) 100%);
+}
+
+/* Estilos para os elementos dentro do footer */
+footer img {
+    margin: 10px; 
+}
