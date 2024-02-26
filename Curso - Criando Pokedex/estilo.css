@@ -1,0 +1,138 @@
+/* Estilos existentes */
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+.Pokedex {
+    padding: 1rem;
+    margin-top: 100px;
+}
+
+.Pokemons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Pokemom {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.Pokemons img {
+    height: 100px;
+    align-self: flex-end;
+}
+
+.detail li {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.Pokemom .detail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.grass  {
+	color: #FFF;
+	padding: 25rem 5 rem;
+	margin: ,125rem;
+	font-size: .825rem;
+	border: 2px solid #61e1ca;
+	display: inline-block;
+	background-color: #61e1ca;
+}
+
+.psychic  {
+	color: #FFF;
+	padding: 25rem 5 rem;
+	margin: ,125rem;
+	font-size: .825rem;
+	border: 2px solid #8B008B;
+	display: inline-block;
+	background-color: #8B008B;
+}
+
+
+.water  {
+	color: #FFF;
+	padding: 25rem 5 rem;
+	margin: ,125rem;
+	font-size: .825rem;
+	border: 2px solid #00008B;
+	display: inline-block;
+	background-color: #00008B;
+}
+
+.fire  {
+	color: #FFF;
+	padding: 25rem 5 rem;
+	margin: ,125rem;
+	font-size: .825rem;
+	border: 2px solid #DC143C;
+	display: inline-block;
+	background-color: #DC143C;
+}
+
+.electric {
+	color: #FFF;
+	padding: 25rem 5 rem;
+	margin: ,125rem;
+	font-size: .825rem;
+	border: 2px solid #DAA520;
+	display: inline-block;
+	background-color: #DAA520;
+}
+
+.Poison {
+	color: #FFF;
+	padding: 25rem 5 rem;
+	margin: ,125rem;
+	font-size: .825rem;
+	border: 2px solid #8A2BE2;
+	display: inline-block;
+	background-color: #8A2BE2;
+}
+
+
+
+.Pokemom .Nome{
+	color: #FFF;
+	margin: .25rem 0;
+	font-size: 6,25;
+}
+
+
+/* Estilos para tipos específicos de Pokémon */
+.Pokemom.Grass{
+	background-color: #14A06F;
+}
+
+.Pokemom.Water {
+    background-color: #1E90FF; 
+}
+
+.Pokemom.Fire {
+    background-color: #FF8C00; 
+}
+
+.Pokemom.Psychic {
+    background-color: #FF00FF; 
+}
+
+.Pokemom.Electric {
+    background-color: #FFFF00; 
+}
+
+.Grass ol{
+
+}
