@@ -1,0 +1,274 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #363636;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+
+a{
+   text-decoration: none; 
+}
+
+
+/* Formatação INdex */
+.plano-fundo{
+    background: url('img/Arena-Fundo-2.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* Estilo para o H1 */
+#titulo h1 {
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    text-align: center; /* Centraliza o título */
+    color: #fff; /* Cor branca do título */
+    font-size: 4rem; /* Tamanho da fonte */
+    margin-top: 2rem; /* Espaço no topo */
+    text-shadow: 3px 3px 4px #000000; /* Sombra no texto para destaque */
+    padding: 10px; /* Espaçamento interno */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6); /* Sombra externa para profundidade */
+    transition: all 0.3s ease-in-out; /* Transição suave para interatividade */
+}
+
+#titulo h1:hover {
+    color: #0056b3; /* Cor do título ao passar o mouse */
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.8); /* Sombra maior ao passar o mouse */
+}
+
+
+/* Estilo para os botões */
+.btn {
+    font-size: 1.2rem; /* Tamanho da fonte do botão */
+    padding: 0.5rem 1.5rem; /* Espaçamento interno do botão */
+    border-radius: 0.5rem; /* Bordas arredondadas */
+    transition: background-color 0.3s, transform 0.3s; /* Transição suave para interatividade */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Cor do botão ao passar o mouse */
+    transform: translateY(-3px); /* Movimento do botão ao passar o mouse */
+}
+
+/* Centralizando os botões */
+.menu-inicial .d-grid {
+    text-align: center; /* Centraliza os botões horizontalmente */
+    margin-top: 2rem; /* Espaço no topo */
+}
+
+
+
+/*CARTAS FORMATÇÃO*/
+
+.navbar .btn-active {
+    color: white; /* Cor do texto */
+    background-color: #28a745; /* Cor de fundo */
+    border-color: #28a745; /* Cor da borda */
+}
+
+
+.todas_cartas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr); /* 1 coluna para telas pequenas */
+    grid-gap: 20px; /* Espaçamento entre as cartas */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media (min-width: 600px) {
+    .todas_cartas {
+        grid-template-columns: repeat(2, 1fr); /* 2 colunas para telas médias */
+    }
+}
+
+@media (min-width: 1024px) {
+    .todas_cartas {
+        grid-template-columns: repeat(4, 1fr); /* 4 colunas para telas grandes */
+    }
+}
+
+.Carta_Padrao {
+    border: 2px solid #ddd; /* Borda sólida mais espessa */
+    box-shadow: 0px 0px 8px #888; /* Sombra para dar profundidade */
+    padding: 20px; /* Espaçamento interno */
+    margin: 20px auto; /* Espaçamento externo e centralizado */
+    background-color: #190707; /* Cor de fundo azul escuro */
+    border-radius: 10px; /* Bordas arredondadas */
+    max-width: 300px; /* Largura máxima */
+    text-align: center; /* Alinhamento do texto */
+    color: #fff; /* Cor do texto */
+}
+
+
+.Carta_Padrao .nome {
+    display: block; /* Exibe como bloco para ocupar a linha inteira */
+    font-weight: bold; /* Nome em negrito */
+    font-size: 1.2em; /* Tamanho da fonte do nome */
+    color: #fff; /* Cor do texto mantida */
+    background-color: rgba(255, 255, 255, 0.2); /* Fundo levemente transparente */
+    padding: 10px 15px; /* Espaçamento interno no nome */
+    margin: 10px 0; /* Espaçamento acima e abaixo do nome */
+    border: 2px solid #f0f0f0; /* Borda mantida */
+    border-radius: 5px; /* Bordas arredondadas */
+    box-shadow: 2px 2px 4px #888; /* Sombra para dar profundidade */
+    text-transform: uppercase; /* Texto em maiúsculas */
+    letter-spacing: 1px; /* Espaçamento entre letras */
+}
+
+.Carta_Padrao img {
+    width: 100%; /* Imagem ocupa toda a largura disponível */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+    margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+}
+
+.Carta_Padrao .Pontos_de_habilidade {
+    list-style-type: none; /* Remover estilos de lista */
+    padding: 0; /* Remover padding padrão */
+    margin: 0; /* Remover margem padrão */
+    background: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
+    backdrop-filter: blur(5px); /* Efeito de desfoque no fundo */
+    border-radius: 8px; /* Bordas arredondadas no container das habilidades */
+}
+
+.Carta_Padrao .Pontos_de_habilidade li {
+    border: 1px solid #ddd; /* Borda em cada item de habilidade */
+    padding: 5px; /* Espaçamento interno nos itens */
+    display: flex; /* Layout flexível */
+    justify-content: space-between; /* Espaçamento entre descrição e valor */
+    margin-bottom: 5px; /* Espaçamento entre habilidades */
+    color: #fff; /* Cor branca para texto das habilidades */
+}
+
+.Carta_Padrao .Pontos_de_habilidade h6 {
+    margin: 0; /* Remover margem padrão do h6 */
+    font-size: 0.9em; /* Tamanho da fonte ajustado para h6 */
+}
+
+/* Estilizações específicas para cada habilidade mantidas */
+.Carta_Padrao .strength { color: red;}
+.Carta_Padrao .defense { color: blue;}
+.Carta_Padrao .magic { color: purple;}
+.Carta_Padrao .speed { color: green;}
+.Carta_Padrao .INTELLIGENCE { color: orange;}
+
+
+.carta_especial {
+    border: 3px solid #ffc107; /* Borda mais espessa e de cor dourada */
+    background-color: #1a1a1a; /* Cor de fundo mais escura */
+    box-shadow: 0px 0px 12px #ffc107; /* Sombra dourada para maior destaque */
+    color: #ffd700; /* Cor do texto dourada para destaque */
+    max-width: 300px; /* Largura máxima igual às cartas comuns */
+    margin: 20px auto; /* Espaçamento externo e centralizado */
+    border-radius: 10px; /* Bordas arredondadas como nas cartas comuns */
+    padding: 20px; /* Espaçamento interno igual às cartas comuns */
+    text-align: center; /* Alinhamento do texto centralizado */
+}
+
+.carta_especial .nome {
+    display: block; /* Exibe como bloco para ocupar a linha inteira */
+    font-weight: bold; /* Nome em negrito */
+    font-size: 0.8em; /* Tamanho da fonte do nome aumentado */
+    color: #fff; /* Cor do texto dourada para destaque */
+    background-color: rgba(255, 215, 0, 0.2); /* Fundo levemente transparente com tonalidade dourada */
+    padding: 10px 15px; /* Espaçamento interno maior no nome */
+    margin: 10px 0; /* Espaçamento acima e abaixo do nome */
+    border: 2px solid #ffd700; /* Borda dourada */
+    border-radius: 5px; /* Bordas levemente arredondadas */
+    box-shadow: 2px 2px 4px #888; /* Sombra para dar profundidade */
+    text-transform: uppercase; /* Texto em maiúsculas para mais destaque */
+    letter-spacing: 1px; /* Espaçamento entre letras para melhor legibilidade */
+}
+
+
+.carta_especial img {
+    width: 100%; /* Imagem ocupa toda a largura disponível */
+    border-radius: 5px; /* Bordas arredondadas para a imagem */
+    margin-bottom: 15px; /* Espaçamento abaixo da imagem */
+}
+
+.carta_especial .skill_points {
+    list-style-type: none; /* Remover estilos de lista */
+    padding: 0; /* Remover padding padrão */
+    margin: 0; /* Remover margem padrão */
+    background: rgba(255, 255, 255, 0.1); /* Fundo levemente transparente */
+    backdrop-filter: blur(5px); /* Efeito de desfoque no fundo */
+    border-radius: 8px; /* Bordas arredondadas no container das habilidades */
+}
+
+.carta_especial .skill_points li {
+    border: 1px solid #ffd700; /* Borda dourada para cada habilidade */
+    padding: 5px; /* Espaçamento interno nos itens */
+    display: flex; /* Layout flexível */
+    justify-content: space-between; /* Espaçamento entre descrição e valor */
+    margin-bottom: 5px; /* Espaçamento entre habilidades */
+    color: #ffc107; /* Cor branca para texto das habilidades */
+}
+
+.carta_especial .skill_points h6 {
+    margin: 0; /* Remover margem padrão do h6 */
+    font-size: 0.9em; /* Tamanho da fonte ajustado para h6 */
+    color: #ffd700; /* Cor dourada para o título da habilidade */
+}
+
+/*Formatação arena de batalha*/
+
+.arena-fundo{
+    background: ;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+}
+
+/* Customizações para os elementos select e button */
+./* Ajustes para os elementos select */
+.form-select {
+    background-color: #fff; /* Fundo branco */
+    border: 1px solid #ced4da; /* Borda cinza claro */
+    border-radius: 0.25rem; /* Bordas arredondadas */
+    /* Altura removida para permitir o ajuste automático */
+}
+
+/* Ajustes para o botão */
+.btn-danger.cart-button {
+    font-weight: bold; /* Texto em negrito */
+    color: #fff; /* Cor do texto */
+    background-color: #dc3545; /* Cor de fundo vermelho */
+    border-color: #dc3545; /* Cor da borda */
+    /* Altura removida para permitir o ajuste automático */
+    padding: 0.375rem 0.75rem; /* Ajuste do padding para alinhamento */
+}
+
+/* Ajustes no layout para alinhar os elementos verticalmente */
+.row.align-items-center > div {
+    display: flex; /* Torna cada coluna um container flex */
+    align-items: center; /* Alinha os itens verticalmente no centro */
+    justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+/* Estilos para telas menores, se necessário */
+@media (max-width: 767px) {
+    .form-select, .btn-danger.cart-button {
+        width: 100%; /* Largura total para pequenas telas */
+        margin-bottom: 0.5rem; /* Espaçamento entre os elementos */
+    }
+}
+
+#perdedor{
+    background: url('img/Derrota.jpg');
+}
+
+#vencedor {
+    background: url('img/win.jpg');
+}
