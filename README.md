@@ -1,4 +1,4 @@
-Claro, aqui está a tradução das partes mencionadas:
+
 
 **Nome do Repositório:** Potência Tech iFood - Desenvolvimento de Jogos
 
